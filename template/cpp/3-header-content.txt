@@ -1,0 +1,19 @@
+#parse("Exqudens C++ File Header.hpp")
+
+#[[#pragma]]# once
+
+#if ($NAMESPACE != "")
+namespace ${NAMESPACE} {
+
+#end
+class ${NAME} {
+    
+    public:
+    
+        // TODO
+    
+};
+#if ($NAMESPACE != "")
+
+}
+#end

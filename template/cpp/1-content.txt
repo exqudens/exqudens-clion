@@ -1,0 +1,15 @@
+#set($ORGANIZATION_NAME = "Exqudens")
+#set($USER_NAME = "Anrii Gorin")
+#set($SUB_DIR_PATH = $DIR_PATH.replaceAll('.*src/.+/cpp/?', ''))
+#set($NAMESPACE = $SUB_DIR_PATH.replace('/', '::'))
+#if ($HEADER_COMMENTS)
+/*
+#if ($ORGANIZATION_NAME && $ORGANIZATION_NAME != "")
+
+  Copyright (c) $YEAR ${ORGANIZATION_NAME}#if (!$ORGANIZATION_NAME.endsWith(".")).#end All rights reserved.
+#end
+
+  Created by ${USER_NAME} on ${YEAR}-${MONTH}-${DAY}.
+
+*/
+#end

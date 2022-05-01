@@ -1,0 +1,18 @@
+#parse("Exqudens C++ File Header.hpp")
+
+#if ($SUB_DIR_PATH != "")
+#[[#include]]# "${SUB_DIR_PATH}/${NAME}.hpp"
+
+#else
+#[[#include]]# "${NAME}.hpp"
+
+#end
+#if ($NAMESPACE != "")
+namespace ${NAMESPACE} {
+
+#end
+    // TODO
+#if ($NAMESPACE != "")
+
+}
+#end

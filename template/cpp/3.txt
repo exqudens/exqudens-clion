@@ -1,0 +1,8 @@
+Files
+
+Name: Exqudens C++ Class Header Source
+Extension: hpp
+File name:
+
+[child] File name: ${NAME}
+[child] Extension: cpp
