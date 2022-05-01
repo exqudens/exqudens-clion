@@ -1,5 +1,4 @@
 #parse("Exqudens C++ File Header.hpp")
-
 #if ($SUB_DIR_PATH != "")
 #[[#include]]# "${SUB_DIR_PATH}/${NAME}.hpp"
 

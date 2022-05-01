@@ -1,5 +1,4 @@
 #parse("Exqudens C++ File Header.hpp")
-
 #[[#pragma]]# once
 
 #if ($NAMESPACE != "")
